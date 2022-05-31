@@ -33,6 +33,7 @@ for i in range(len(hotmenu_price)):
 #학생2
 hotmenu_composition_text= [] 
 for i in range(len(hotmenu_composition)):
+    
  c = hotmenu_composition[i].get_text()
  hotmenu_composition_text.append(c)
 
